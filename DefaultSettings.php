@@ -9,9 +9,13 @@
  * @author Daniel Werner < danweetz@web.de >
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-  die( "This file is part of the Semantic Result Formats extension. It is not a valid entry point.\n" );
-}
+// Fandom change - start
+// This check stop execution of dev scripts eg. phpunit, phpcs - PLATFORM-4969
+// @author t-tomalak
+//if ( !defined( 'MEDIAWIKI' ) ) {
+//  die( "This file is part of the Semantic Result Formats extension. It is not a valid entry point.\n" );
+//}
+// Fandom change - end
 
 // The formats you want to be able to use.
 // See the INSTALL file or
